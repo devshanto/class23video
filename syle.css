@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-content {
+	width: 500px;
+	border: 1px solid red;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	align-content: flex-start;
+	flex-wrap: wrap;
+    padding: 10px;
+}
+.flex-item{
+    background: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 100px;
+}
+.flex-item:nth-child(4){
+    order: 20;
+    color: blue;
+}
+
+.wrapper{
+    
+}
+.menu{
+    background-color: green;
+    max-width: 1200px; 
+    margin: auto;
+}
+.menu ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.menu ul li{
+    flex:0 1 0%;
+}
+.menu ul li a{
+    padding: 10px 30px;
+    display: block;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+.d-flex{
+    display: flex;
+    flex: 1;
+}
+.flex-item1{
+    
+    border: 1px solid blue;
+}
+
+.row-3{
+    display: flex;
+    margin-top: 30px;
+}
+.row-3-item{
+    border: 1px solid rosybrown;
+    flex: 30%;
+}
+.bigger-div{
+    flex: 70%;
+}
+
+.row-4{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.row-4-item{
+    border: 1px solid orange;
+    flex: 1;
+}
+.row-4-bigger{
+    flex: 2;
+}
+
+
+.row-5{
+    height: 600px;
+    width: 500px;
+    border: 2px solid green;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.row-5-inner{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+}
